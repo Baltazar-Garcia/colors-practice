@@ -7,7 +7,7 @@ const HomeScreen = (props: componentNameProps) => {
     return (
         <View style={styles.container}>
             <Text style={styles.textStyle}>Welcome to my Git app!</Text>
-            <Text>Enjoy your stay!</Text>
+            <Text style={styles.bodyStyle}>Enjoy your stay!</Text>
         </View>
     );
 };
@@ -24,5 +24,7 @@ const styles = StyleSheet.create({
         color: "red",
         fontStyle: "italic",
         fontWeight: "600"
+    }, bodyStyle: {
+        color: "blue"
     }
 });
