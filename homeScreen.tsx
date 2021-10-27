@@ -6,7 +6,7 @@ interface componentNameProps { }
 const HomeScreen = (props: componentNameProps) => {
     return (
         <View style={styles.container}>
-            <Text style={styles.textStyle}>Welcome to my Git app!</Text>
+            <Text style={styles.textStyle}>CRAZY COLORS!!!!!</Text>
             <Text style={styles.bodyStyle}>Enjoy your stay!</Text>
         </View>
     );
@@ -25,6 +25,7 @@ const styles = StyleSheet.create({
         fontStyle: "italic",
         fontWeight: "600"
     }, bodyStyle: {
-        color: "blue"
+        color: "blue",
+        fontWeight: "200"
     }
 });
