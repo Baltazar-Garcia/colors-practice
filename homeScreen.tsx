@@ -8,6 +8,7 @@ const HomeScreen = (props: componentNameProps) => {
         <View style={styles.container}>
             <Text style={styles.textStyle}>CRAZY COLORS!!!!!</Text>
             <Text style={styles.bodyStyle}>Enjoy your stay!</Text>
+            <Text>Or maybe not! Who knows?</Text>
         </View>
     );
 };
